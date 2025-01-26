@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurav - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px    ;
+        }
+        body{
+            font-family: "Playfair Display", serif;
+        }
+         nav{
+             display: flex;
+             justify-content: space-around;
+             align-items: centre;
+             height: 50px;
+             background-color: burlywood;
+         }
+         nav ul{
+             display: flex;
+             justify-content: center;
+         }
+         nav ul li{
+            list-style: none;
+            margin: 0px 24px;}
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        nav ul li a:hover{
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 1.04rem;
+        }
+        .left{
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+        .right{
+            margin-top: 10px;
+        }
+        .first{
+            display: flex;
+            justify-content: space-around;
+            margin: 75px;
+
+        }
+        .third{
+
+            margin: 20px;
+            margin-left: 70px;
+        }
+        .rightsection{
+            width: 50%;
+            background-color: 0;
+        }
+        .leftsection{
+           background-color: 0;
+            width:40%;
+            margin-top: 120px;
+        }
+        .intro{
+            font-size: 3rem;
+            margin-top: 20px;
+        }
+        .name{
+            
+             color: rgb(242, 151, 32);
+        }
+        #element{
+            color: rgb(242, 151, 32);
+        }
+        .past-experience{
+            font-size: 2rem;
+            color: rgb(242, 151, 32);
+        }
+        main hr{
+            border:0;
+            background:rgb(242, 151, 32);
+            height: 2px;
+            margin: 40px 84px;
+        }
+        .third .box{
+            display: flex;
+            background:rgb(242, 151, 32) ;
+            width: 80vw;
+            height: 2px;
+            margin-top: 50px;
+            margin-left: 75px;
+                
+        }
+        .third .vertical{
+            
+            margin:0 120px;
+            height: 70px;
+            width: 2px;
+            background-color: rgb(242, 151, 32);      
+        }
+        .about{
+            margin:80px;
+            display:flex;
+
+        }
+        .text{
+            width:50%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .mile{
+            display:flex;
+            margin-top:75px;
+            font-size: 16px;
+            width: 150px;
+            
+
+        }
+        .vertical .linked{
+            font-size: 12px;
+            margin: 10px;
+            width: 150px;   
+
+        }
+        .fourth{
+            margin:70px;
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left"><h3>Saurav's Portfolio</h3></div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                <div class="intro">Hi, I'm <span class="name">Saurav Dukare.</span> 
+                <br>A Passionate <br><span id="element"></span>.</div>
+                <br>
+                Building impactful projects and solving real-world problems.
+            </div>
+            <div class="rightsection">
+            <img src="bgd.png" alt="saurav" width="600px" height="600px">
+            </div>
+        
+        </section>
+    <hr>
+
+        <section class="about">
+            
+            <div class="rightsection">
+                <img src="port.png" alt="saurav" width="400px" height="400px">
+            </div>
+            <div class="text">
+                <h1>About Me</h1><br><br>
+                Hi, I’m Saurav Dukare, a tech enthusiast and aspiring problem-solver driven by innovation and engineering. Currently pursuing a Bachelor of Technology in Electrical Engineering at JSPM's Rajarshi Shahu College of Engineering, I’m passionate about combining creativity and technology to craft smart, efficient solutions for real-world challenges.
+
+                With hands-on experience in tools like Arduino and MATLAB, and proficiency in programming languages like C, Python, HTML, and PHP, I thrive on building solutions that bridge the gap between hardware and software.
+                
+                When I’m not immersed in tech, I’m actively contributing as the Treasurer of the IEEE PES Society, where I lead initiatives, foster collaboration, and help bring bold ideas to life on campus.
+                
+                If innovation, technology, and problem-solving excite you, let’s connect!
+            </div>
+
+        </section>
+    
+    <hr>
+
+        <section class="third">
+            <span>What I have done so far</span>    
+            <h1 class="past-experience">Projects<h1>
+            <div class="box">
+                <div class="vertical"><div class="mile">Line follower Robot</div>
+                <div class="linked">A Arduino operated Line follower bot with IR sensors and motor driver.</div></div>
+                <div class="vertical"><div class="mile">Student Grading System</div>
+                <div class="linked">An ERP software to view, sort & manage student data Effectively by using PHP and XAMPP.</div></div>
+                <div class="vertical"><div class="mile">Smart Room Cleaner</div>
+                <div class="linked">A Arduino operated automatic bot with vaccum to keep the area clean.</div></div>
+                <div class="vertical"><div class="mile">Vehicle Blindspot Safety Feature</div>
+                <div class="linked">A Arduino operated blindspot detection device for vehicles to detect vehicles present in their blinspot by informing the driver about their location.</div></div>
+                <div class="vertical"><div class="mile">AI Agent</div>
+                <div class="linked">An AI agent to perform a specific task of generating an image by following a coomand by user by using API.</div></div>
+            </div>
+                
+        </section>
+    
+    
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Student', ' Entrepreneur','Digital Marketer','Electrical Engineer','Developer','Technophile'],
+          typeSpeed: 50,
+        });
+      </script>
+
+</body>
+
+</html>
